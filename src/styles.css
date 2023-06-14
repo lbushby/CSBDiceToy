@@ -17,7 +17,7 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-thead {
+th {
   background-color: #009879;
   color: #ffffff;
   text-align: left;

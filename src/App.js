@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-import ResultPercentages from "./ResultPercentages";
+import Results  from "./Results";
 
 
 
@@ -36,7 +36,7 @@ export default function App() {
         <input type="submit" value="Go" />
       </form>
 
-      <ResultPercentages dicecount={dicecount} sidescount={sidescount} />
+      <Results dicecount={dicecount} sidescount={sidescount} />
     </div>
   );
 }
